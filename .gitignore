@@ -1,0 +1,18 @@
+venv/
+.venv/
+env/
+/bin/
+/include/
+/lib/
+/lib64/
+
+pycache/        # Python cache and compiled files
+
+.vscode/        # For VS Code
+.env            # Environment variable files should always be ignored
+
+db.sqlite3
+/media/         # User-uploaded media files should not be in version control.
+/static/        # Generated static files after running collectstatic.
+*.log           # Log files can contain sensitive information.
+
